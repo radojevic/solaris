@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+         <div class="scroll-wrap">
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+          </li>
+          <li  class="fokus"><a href="restoran.html">RESTORAN</a>
+            <ul class="submenu">
+                      <li><a href="restoran.html#a_la_carte1">À LA CARTE</a></li>
+
+           </ul>
+          </li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          
+          <li><a href="onama.html">PROMO PAKETI</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="cenovnik.html">CENOVNIK</a>
+            <ul class="submenu">
+              <li><a href="cenovnik.html#cen_well">WELLNESS CENTAR</a></li>
+            </ul>
+
+          </li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+        </div>
+   
+  </nav> <!-- .cd-primary-nav -->
+    <div class="booking"><a class="hvr-sweep-to-bottom2"  href="#0">BOOK</a></div>
+</header> <!-- .cd-auto-hide-header -->
+
+
+
+<main class="cd-main-content">
+
+
+                       <!-- POZADNSKA SLIKA RESTORAN -->
+
+           <div class="rest-holder">
+               <div class="rest-container">
+                  <p>Bogatstvo ukusa u restoranu Biber!</p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+
+
+                         <!-- O RESTORANU -->
+
+        <div class="biber-holder">
+
+
+            <div class="biber-container">
+
+                    <div class="biber-box">
+                        <h4>Restoran Biber</h4>
+                        <div class="onama-linija"></div>
+
+                        <p>U ponudi Resorta je i restoran Biber. Svojim enterijerom i dizajnom, pruža osećaj tradicionalne,
+                          tople atmosfere uz spoj raznovrsnih ukusa i ugođaja. Osim za goste Solaris-a restoran je otvorenog tipa
+                          i za sve one koji žele da osete jedinstven gastronomski užitak. </p>
+
+                        <p class="hideme">U februaru 2014. godine Solaris Resort je postao prvi u Srbiji sa uručenim Halal sertifikatom
+                            za proces proizvodnje i distribucije hrane u okviru restorana Biber</p>
+
+
+                        <p class="hideme">Restoran nudi a la carte ponudu sa širokom paletom nacionalnih specijaliteta Španije, Francuske, Italije
+                                  ili Dalekog istoka, bogat izbog vina i poslastica, mogućnost organizovanja tematskih večeri
+                                  sa adekvatnim muzičkim programom i animacijama za goste. </p>
+
+                        <p class="hideme">Restoran raspolaže kapacitetom od 130-150 mesta.</p>
+
+
+
+
+
+                        <div class="onama-linija hideme"></div> 
+
+                    </div>
+
+
+            </div>
+
+        </div>
+ <!-- kraj bibera -->
+
+                            
+
+
+
+
+
+                          <!-- G A L E R I J A -->
+
+
+        <div class="galerija-biber-holder hideme">
+
+                    <div class="galerija-biber-container">
+
+
+                      <div class="container-biber c4">
+                          <img src="images/b1.jpg" class="image">
+                      </div>
+
+                      <div class="container-biber1">
+                          <div class="container2 c2 c5">
+                              <img src="images/a7.jpg" class="image">
+                                <div class="overlay">
+                          <div class="text2">Radno vreme 07:30  -  22:00</div>
+                          </div> 
+                            </div>
+
+                            <div class="container-biber2 c3 c6">
+                              <img src="images/b2.jpg" class="image">
+                        </div>
+                      </div>
+
+                      <div class="container-biber c7">
+                        <img src="images/b3.jpg" class="image">
+                      </div>
+
+                      <div class="container-biber1 c8">
+
+                        <div class="container-biber2">
+                          <img src="images/b7.jpg" class="image">
+                        </div>
+
+                        <div class="container-biber2 c3">
+                          <img src="images/b4.jpg" class="image">
+                        </div>
+                      </div>
+
+
+                      <div class="container-biber c9">
+                        <img src="images/a5.jpg" class="image">
+                      </div>
+
+                    </div>
+
+        </div>
+ <!-- kraj galerije -->
+
+
+
+
+                         <!-- A    L A    C A R D -->
+
+       <div id="a_la_carte1" class="master-alacarte">                  
+
+        <div class="ala-holder">
+
+
+            <div class="ala-container">
+
+                    <div class="ala-box">
+                        <h4>À la Carte</h4>
+                        <div class="onama-linija"></div>
+
+                        <p class="hideme">U okviru našeg restorana postoji takođe i posebna a la carte ponuda. Uz pažljivo sastavljen jelovnik od strane našeg kuvara, 
+                        možete uživati u raznovrsnim ukusima toplih i hladnih predjela, supa i čorbi, kao i jela po porudžbini.</p>
+
+                        <p class="hideme">Odlučite se za jelo po svom ukusu i uživajte u kvalitetno biranoj i vrhunski pripremljenoj a la carte hrani, u našem objektu.</p>
+
+
+                        <p class="hideme">Solaris Resort poseduje restoran koji prati najviše standarde kulinarstva, kao i vrhunske srpske specijalitete. 
+                        Ne zaboravite da zdravlje počinje i postiže se na tanjiru. Dođite i uverite se. Cene su izražene u dinarima.</p>
+
+
+                    </div>
+
+
+
+                   <div class="biber-box biber-box-meni">
+                        <h4>Meni</h4>
+                        <div class="onama-linija"></div>
+                   </div>
+
+
+
+
+        <div class="alacarte-holder hideme">
+
+            <div class="alacarte-container">
+
+
+                <div class="tab tab1">
+                  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Hladna predjela</button>
+                  <button class="tablinks" onclick="openCity(event, 'Paris')">Topla predjela</button>
+                  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Supe</button>
+                  <button class="tablinks" onclick="openCity(event, 'Kragujevac')">Salate</button>
+                  <button class="tablinks" onclick="openCity(event, 'Beograd')">Jela po porudžbini</button>
+                  <button class="tablinks" onclick="openCity(event, 'NoviSad')">Ribe</button>
+                  <button class="tablinks" onclick="openCity(event, 'Milanovac')">Desert</button>
+                </div>
+
+
+                <div class="alacarte">
+
+                <div id="London" class="tabc">
+                        <table>
+                          <tr>
+                            <td>Svinjska pršuta sa salatom od kruške i plavog sira</td>
+                            <td><span>750</span></td>
+                          </tr>
+                          <tr>
+                            <td>Solaris meze (2 osobe)</td>
+                            <td><span>1.200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Dimljeni losos (2 osobe)</td>
+                            <td><span>1.580</span></td>
+                          </tr>
+                          <tr>
+                            <td>Salata Caprezze</td>
+                            <td><span>480</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileća salata sa orasima</td>
+                            <td><span>590</span></td>
+                          </tr>
+                          <tr>
+                            <td>Govedja pršuta</td>
+                            <td><span>750</span></td>
+                          </tr>
+                          <tr>
+                            <td>Svinjska pršuta</td>
+                            <td><span>750</span></td>
+                          </tr>
+                          <tr>
+                            <td>Kajmak</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Domaći sir</td>
+                            <td><span>180</span></td>
+                          </tr>
+                          <tr>
+                            <td>Feta (150gr)</td>
+                            <td><span>1.800</span></td>
+                          </tr>
+                          <tr>
+                            <td>Četiri vrste sira</td>
+                            <td><span>780</span></td>
+                          </tr>
+                          <tr>
+                            <td>Masline</td>
+                            <td><span>230</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="Paris" class="tabc">
+                  <table>
+                          <tr>
+                            <td>Škampi na žaru</td>
+                            <td><span>1.300</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pohovane lignje</td>
+                            <td><span>580</span></td>
+                          </tr>
+                          <tr>
+                            <td>Dimljeni losos (2 osobe)</td>
+                            <td><span>1.580</span></td>
+                          </tr>
+                          <tr>
+                            <td>Taljatele sa gamborimau paradajz sosom</td>
+                            <td><span>750</span></td>
+                          </tr>
+                          <tr>
+                            <td>Piletina sa kus-kus salatom</td>
+                            <td><span>740</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pene sa dimljenim lososom i mirođija sosom</td>
+                            <td><span>780</span></td>
+                          </tr>
+                          <tr>
+                            <td>Taljatele Karbonara</td>
+                            <td><span>650</span></td>
+                          </tr>
+                          <tr>
+                            <td>Špageti Bolonjeze</td>
+                            <td><span>250</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="Tokyo" class="tabc">
+                  <table>
+                          <tr>
+                            <td>Pileća supa sa brokolijem</td>
+                            <td><span>200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Potaž od tikvica</td>
+                            <td><span>200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Francuska supa od luka</td>
+                            <td><span>200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Juneća čorba</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileća čorba</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pikantni riblji paprikaš  </td>
+                            <td><span>250</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="Kragujevac" class="tabc">
+                  <table>
+                          <tr>
+                            <td>Grčka salata</td>
+                            <td><span>280</span></td>
+                          </tr>
+                          <tr>
+                            <td>Šopska salata</td>
+                            <td><span>230</span></td>
+                          </tr>
+                          <tr>
+                            <td>Paprika salata</td>
+                            <td><span>200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Mešana salata</td>
+                            <td><span>150</span></td>
+                          </tr>
+                          <tr>
+                            <td>Urnebes salata</td>
+                            <td><span>180</span></td>
+                          </tr>
+                          <tr>
+                            <td>Sezonska salata</td>
+                            <td><span>180</span></td>
+                          </tr>
+                          <tr>
+                            <td>Ljute papričice</td>
+                            <td><span>180</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="Beograd" class="tabc">
+                  <table>
+                          <tr>
+                            <td>Juneći ramstek u "Bernez" sosu</td>
+                            <td><span>1.100</span></td>
+                          </tr>
+                          <tr>
+                            <td>Ramstek u "Barbeque" sosu</td>
+                            <td><span>1.220</span></td>
+                          </tr>
+                          <tr>
+                            <td>Juneći medaljoni u sosu od šampinjona</td>
+                            <td><span>1.500</span></td>
+                          </tr>
+                          <tr>
+                            <td>Gratinirani ramstek</td>
+                            <td><span>1.150</span></td>
+                          </tr>
+                          <tr>
+                            <td>Sote Stroganov</td>
+                            <td><span>1.380</span></td>
+                          </tr>
+                          <tr>
+                            <td>Biftek u sosu od gorgonzole i paprike</td>
+                            <td><span>1.480</span></td>
+                          </tr>
+                          <tr>
+                            <td>Juneći biftek "Chilli"</td>
+                            <td><span>1.290</span></td>
+                          </tr>
+                          <tr>
+                            <td>Svinjski medaljoni u "Solaris" sosu</td>
+                            <td><span>850</span></td>
+                          </tr>
+                          <tr>
+                            <td>Saltimbocca alla Romana</td>
+                            <td><span>880</span></td>
+                          </tr>
+                          <tr>
+                            <td>Cordon Bleu</td>
+                            <td><span>880</span></td>
+                          </tr>
+                          <tr>
+                            <td>Svinjski medaljoni sa grilovanim povrćem i mozzarelom</td>
+                            <td><span>930</span></td>
+                          </tr>
+                          <tr>
+                            <td>Njeguška šnicla</td>
+                            <td><span>1.150</span></td>
+                          </tr>
+                          <td>Juneći ramstek u "Bernez" sosu</td>
+                            <td><span>1.100</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileći file u kari sosu</td>
+                            <td><span>820</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileći file u kikiriki sosu</td>
+                            <td><span>890</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileći file u sosu od 4 vrste sira</td>
+                            <td><span>920</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pileći medaljoni u slanini</td>
+                            <td><span>920</span></td>
+                          </tr>
+                          <tr>
+                            <td>Ćureći file u dižon sosu</td>
+                            <td><span>1.080</span></td>
+                          </tr>
+                          <tr>
+                            <td>Ćureci file u sosu od narandže</td>
+                            <td><span>990</span></td>
+                          </tr>
+                          <tr>
+                            <td>Ćurece rolnice</td>
+                            <td><span>1.230</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pačije grudi u sosu od višanja</td>
+                            <td><span>1.320</span></td>
+                          </tr>
+                          <tr>
+                            <td>Rižoto od pečuraka</td>
+                            <td><span>650</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="NoviSad" class="tabc">
+                   <table>
+                          <tr>
+                            <td>Losos u sosu od belog vina sa gamborima i školjkama</td>
+                            <td><span>1.450</span></td>
+                          </tr>
+                          <tr>
+                            <td>Grilovani losos sa terijaki sosom</td>
+                            <td><span>1.320</span></td>
+                          </tr>
+                          <tr>
+                            <td>Brancin sa grilovanim povrćem</td>
+                            <td><span>3.200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Pastrmka sa grilovanim povrćem</td>
+                            <td><span>1.800</span></td>
+                          </tr>
+                          <tr>
+                            <td>Orada</td>
+                            <td><span>2.700</span></td>
+                          </tr>
+                          <tr>
+                            <td>Paelja</td>
+                            <td><span>1.350</span></td>
+                          </tr>
+                          <tr>
+                            <td>Rižoto sa plodovima mora</td>
+                            <td><span>700</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                <div id="Milanovac" class="tabc">
+                   <table>
+                          <tr>
+                            <td>Sachertorte</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Cheescake</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Palačinke</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Kolač dana</td>
+                            <td><span>200</span></td>
+                          </tr>
+                          <tr>
+                            <td>Jafa kolač</td>
+                            <td><span>250</span></td>
+                          </tr>
+                          <tr>
+                            <td>Baunti kolač</td>
+                            <td><span>250</span></td>
+                          </tr>
+                        </table>
+                </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+ <!-- kraj smestaja -->
+
+
+            </div>
+
+        </div>
+
+        </div>
+ <!-- kraj a la cartea -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/logo-footer.svg" width="145"/>
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/facebook.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/instagram.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/youtube.svg" width="24"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+
+
+<!-- A LA CARTE  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabc, tablinks;
+    tabc = document.getElementsByClassName("tabc");
+    for (i = 0; i < tabc.length; i++) {
+        tabc[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+ <!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

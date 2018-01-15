@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+         <div class="scroll-wrap">
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+
+
+          </li>
+          <li><a href="restoran.html">RESTORAN</a>
+            <ul class="submenu">
+                     <li><a href="restoran.html#a_la_carte1">À LA CARTE</a></li>
+
+           </ul>
+          </li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          
+          <li><a href="onama.html">PROMO PAKETI</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="cenovnik.html">CENOVNIK</a>
+            <ul class="submenu">
+              <li><a href="cenovnik.html#cen_well">WELLNESS CENTAR</a></li>
+            </ul>
+          </li>
+          <li   class="fokus"><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+        </div>
+   
+  </nav> <!-- .cd-primary-nav -->
+    <div class="booking"><a class="hvr-sweep-to-bottom2"  href="#0">BOOK</a></div>
+</header> <!-- .cd-auto-hide-header -->
+
+
+<main class="cd-main-content">
+
+
+                        <!-- POZADNSKA SLIKA SMESTAJ -->
+
+           <div class="kontakt-holder">
+               <div class="kontakt-container">
+                  <p></p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+
+
+                         <!-- IZBOR APARTMANA -->
+
+        <div class="apartman-cont-holder">
+
+
+            <div class="apartman-cont-container">
+
+                    <div class="apartman-cont-box kontakt-box">
+                        <h4>Kontaktirajte Nas<br><span>+381 36 426 500</span> </h4>
+
+
+                             <form class="kontakt">
+                              
+                              <div class="group">      
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Ime i prezime</label>
+                              </div>
+
+
+                              <div class="group">      
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Telefon</label>
+                              </div>
+                                
+                              <div class="group">      
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Email</label>
+                              </div>
+
+                              <div class="group">      
+                                <textarea placeholder=""></textarea>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Poruka</label>
+                              </div>
+                             
+                            </form>
+
+                            <div class="dugmence">
+                            <a class="hvr-sweep-to-bottom2"  href="#0">POŠALJI</a></div>
+
+                            </div>
+
+                    </div>
+
+
+            </div>
+
+        </div>
+ <!-- kraj contenta -->
+
+                            
+
+
+
+
+
+ 
+
+
+                         <!-- SMESTAJ INFO -->
+
+
+        <div class="apartman-cont-info-holder">
+             <div class="apartman-cont-container   apartman-cont-container-info">
+                      <div class="apartman-cont-box kontakt-box informacije1">
+                        <h4>Informacije</h4>
+                      </div>
+
+                    <div class="apartman-cont-box    apartman-cont-box-info informacije2">
+                        <div class="onama-linija"></div>
+
+                        <div class="informacije3">
+                        <p><span>Recepcija</span><br>
+                            Radno vreme 00-24h<br> 
+                            +381 36 426 500<br>
+                            +381 36 51 000 30<br>
+                            info@solarisresort.com</p>
+
+                        <p><span>Wellness centar</span><br>
+                            Radno vreme 10h-21h<br> 
+                            +381 36 51 000 11<br>
+                            wellness@solarisresort.com</p>
+
+                        <p><span>Rezervacije za grupe</span><br>
+                            Radno vreme 08h-15h<br> 
+                            (radnim danima)<br>
+                            +381 62 88 59 470<br>
+                            booking@solarisresort.com</p>
+
+                        <p><span>Marketing</span><br>
+                            Radno vreme 08h-15h<br> 
+                            (radnim danima)<br>
+                            +381 62 667 379<br>
+                            marketing@solarisresort.com</p>
+                        </div>
+
+
+
+                        <div class="onama-linija"></div> 
+
+                    </div>
+        </div>
+
+                <div class="clear"></div>
+
+
+                          <div class="mapa2">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2754.226142277851!2d20.898461223253403!3d43.62851136863142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4756578c1a73a76d%3A0xcd7ae8149f71665!2sSolaris+Resort!5e0!3m2!1sen!2srs!4v1497779732979" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          </div>
+
+
+
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/logo-footer.svg" width="145" />
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/facebook.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/instagram.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/youtube.svg" width="24"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+ <!-- S M E S T A J  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+ <!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

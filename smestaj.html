@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+         <div class="scroll-wrap">
+          <li><a href="index.html">POČETNA</a></li>
+          <li  class="fokus"><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+
+
+          </li>
+          <li><a href="restoran.html">RESTORAN</a>
+            <ul class="submenu">
+                     <li><a href="restoran.html#a_la_carte1">À LA CARTE</a></li>
+
+           </ul>
+          </li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          
+          <li><a href="onama.html">PROMO PAKETI</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="cenovnik.html">CENOVNIK</a>
+            <ul class="submenu">
+              <li><a href="cenovnik.html#cen_well">WELLNESS CENTAR</a></li>
+            </ul>
+          </li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+
+      </div>
+   
+  </nav> <!-- .cd-primary-nav -->
+    <div class="booking"><a class="hvr-sweep-to-bottom2"  href="#0">BOOK</a></div>
+</header> <!-- .cd-auto-hide-header -->
+
+
+<main class="cd-main-content">
+
+
+                        <!-- POZADNSKA SLIKA SMESTAJ -->
+
+           <div class="smest-holder">
+               <div class="smest-container">
+                  <p></p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+
+
+                         <!-- IZBOR APARTMANA -->
+
+        <div class="apartman-cont-holder">
+
+
+            <div class="apartman-cont-container">
+
+                    <div class="apartman-cont-box">
+                        <h4>Izbor Apartmana</h4>
+                        <div class="onama-linija"></div>
+
+                        <p>Solaris Resort Vam nudi različite smeštajne jedinice u skladu sa Vašim mogućnostima i željama. Kapacitet a je 86 komfornih apartmana i porodičnih soba i jedan penthaus apartman. Apartmani površine 41m² sastoje se od: prostranog dnevnog boravka, spavaće sobe, terase, 
+                        kupatila i opremljene kuhinje. Porodične sobe su 41m² i sastoje se od: dve odvojene spavaće sobe sa po dva 
+                        ležaja, terase, kupatila, garderobnog prostora. Svakom gostu na raspolaganju je besplatan, obezbeđen parking prostor pod video nadzorom sa 90 parking mesta.</p>
+
+
+                        <div class="onama-linija"></div> 
+
+                    </div>
+
+
+            </div>
+
+        </div>
+ <!-- kraj contenta -->
+
+                            
+
+
+
+
+
+                          <!-- S  O  B  E -->
+
+
+        <div class="sobe-holder hideme">
+
+                    <div class="sobe-container">
+
+                          <div class="sobe-box hideme">
+                            <div class="sobe-image"></div>
+                            <h3>Standard Soba</h3>
+                            <p>spavaća soba, kupatilo, terasa, garderober, Air Condition, LCD TV (sa kablovskom), wireless internet, mini bar, fen</p>
+                            <a class="hvr-sweep-to-bottom" href="#">DETALJNIJE</a>
+                          </div>
+
+
+
+                          <div class="sobe-box sobe-box1 hideme">
+                            <div class="sobe-image sobe-image2"></div>
+                            <h3>Classic Apartman</h3>
+                            <p>dnevna soba, spavaća soba, kupatilo, opremljena kuhinja, garderober, Air Condition, LCD TV(sa kablovskom), wireless internet, mini bar, fen</p>
+                            <a class="hvr-sweep-to-bottom" href="#">DETALJNIJE</a>
+                          </div>
+
+                          <div class="sobe-box">
+                            <div class="sobe-image sobe-image3"></div>
+                            <h3>Porodična Soba</h3>
+                            <p>dve spavaće sobe, kupatilo, terasa, garderober, Air Condition, 2 LCD TV-a(sa kablovskom), wireless internet, mini bar, fen</p>
+                            <a class="hvr-sweep-to-bottom" href="#">DETALJNIJE</a>
+                          </div>
+
+
+
+                          <div class="sobe-box sobe-box1">
+                            <div class="sobe-image sobe-image4"></div>
+                            <h3>Penthaus</h3>
+                            <p>dnevna soba, dve spavaće sobe, 2 kupatila, opremljena kuhinja, 4 terase, garderober, Air Condition, LCD TV(sa kablovskom), wireless internet, mini bar</p>
+                            <a class="hvr-sweep-to-bottom" href="#">DETALJNIJE</a>
+                          </div>
+
+
+                    </div>
+
+
+        </div>
+ <!-- kraj soba -->
+
+
+
+                         <!-- SMESTAJ INFO -->
+
+
+        <div class="apartman-cont-info-holder">
+             <div class="apartman-cont-container   apartman-cont-container-info">
+
+                    <div class="apartman-cont-box    apartman-cont-box-info">
+                        <div class="onama-linija"></div>
+
+                        <p>Cene su izražene u dinarima po osobi dnevno. Cena uključuje: noćenje sa doručkom/polupansion i poklon vaučer za tročasovno korišćenje Wellness zone (zatvoreni bazen sa slanom vodom, jacuzzi, slana pećina, parno kupatilo, tepidarijum, kaldarijum, finska sauna, ruska banja, Relax soba, kardio i fit program) Termin za korišćenje poklon vaučera potrebno je rezervisati na recepciji Wellness centra.</p>
+
+                        <p>Boravišna taksa po osobi je 120,00 rsd dnevno. Osiguranje po osobi je 20,00 rsd dnevno. 
+                          Deca do 7 godina plaćaju samo osiguranje 20,oo din, a deca od 7 do 15 godina plaćaju osiguranje 20,oo din i boravišnu taksu u iznosu od 60,oo din. </p>
+
+                          <p>Gosti a ostvaruju 10% popusta na sve masaže i tretmane. </p>
+
+                          <p>Vreme prijave u je od 14h, a vreme odjave iz a do 11h.  </p>
+
+                          <p>Način plaćanja: Plaćanje se vrši gotovinski, kreditnim karticama (VISA,VISA ELECTRON, MASTER CARD, MAESTRO, DINA CARD i AMERICAN EXPRESS) ili preko računa. </p>
+
+                          <p>Otkazni rok rezervacije za individualne goste je 48h pre dolaska. U slučaju nedolaska ili otkaza rezervacije kraćeg od 48h, zadržava pravo da prethodno uplaćeni avans zadrži u celosti. </p>
+
+
+                        <div class="onama-linija"></div> 
+
+                    </div>
+        </div>
+
+                <div class="clear"></div>
+
+
+
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/logo-footer.svg" width="145" />
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/facebook.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/instagram.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/youtube.svg" width="24"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+ <!-- S M E S T A J  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+ <!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
