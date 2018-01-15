@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+          <div class="scroll-wrap">
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+          </li>
+          <li><a href="restoran.html">RESTORAN</a>
+            <ul class="submenu">
+              <li><a href="restoran.html#a_la_carte1">À LA CARTE</a></li>
+           </ul>
+
+          </li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          <li><a href="onama.html">PROMO PAKETI</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li  class="fokus"><a href="cenovnik.html">CENOVNIK</a>
+            <ul class="submenu">
+              <li><a href="cenovnik.html#cen_well">WELLNESS CENTAR</a></li>
+            </ul>
+
+          </li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+        </div>
+   
+  </nav> <!-- .cd-primary-nav -->
+    <div class="booking"><a class="hvr-sweep-to-bottom2"  href="#0">BOOK</a></div>
+</header> <!-- .cd-auto-hide-header -->
+
+<main class="cd-main-content">
+                        <!-- POZADNSKA SLIKA O NAMA -->
+
+           <div class="cenovnik-holder">
+               <div class="cenovnik-container">
+                  <p>Solaris Resort Vas Očekuje</p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+
+
+                         <!-- CENOVNIK SMESTAJA -->
+
+        <div class="cnv-holder">
+
+
+            <div class="cnv-container">
+
+                    <div class="cnv-box">
+                        <h4>Cenovnik smeštaja</h4>
+                        <div class="onama-linija"></div>
+                        <p>Period boravka od 01.07. do 31.08.2017.<br>
+                        Cene su izražene u dinarima po osobi dnevno. Cena uključuje celodnevno korišćenje Wellness centra.<br>
+                       <span>PROMO JUL: od 01.07. do 15.07. gosti ostvaruju popust od 10% na prikazane cene</span></p>
+
+
+                        <table class="w3-table">
+                        <tr class="imetabele">
+                          <th>Apartman</th>
+                          <th>Noćenje sa doručkom</th>
+                          <th>Polupansion</th>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/1 app</td>
+                          <td>10.800</td>
+                          <td>11.300</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/2 app</td>
+                          <td>7.200</td>
+                          <td>7.700</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>Doplata za III osobu u app</td>
+                          <td>3.000</td>
+                          <td>3.500</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/1 soba</td>
+                          <td>10.300</td>
+                          <td>10.800</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/2 soba</td>
+                          <td>6.900</td>
+                          <td>7.400</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>2/3 soba</td>
+                          <td>5.600</td>
+                          <td>6.100</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>2/4 soba</td>
+                          <td>4.500</td>
+                          <td>5.000</td>
+                        </tr>
+                      </table>
+
+
+
+                    <div class="cnv-box">
+                        <p>Period boravka od 01.09. do 28.12.2017.<br>
+                       Cene su izražene u dinarima po osobi dnevno. Cena uključuje celodnevno korišćenje Wellness centra.</p>
+
+
+                        <table class="w3-table">
+                        <tr class="imetabele">
+                          <th>Apartman</th>
+                          <th>Noćenje sa doručkom</th>
+                          <th>Polupansion</th>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/1 app</td>
+                          <td>10.800</td>
+                          <td>11.300</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/2 app</td>
+                          <td>6.800</td>
+                          <td>7.300</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>Doplata za III osobu u app</td>
+                          <td>3.000</td>
+                          <td>3.500</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/1 soba</td>
+                          <td>10.300</td>
+                          <td>10.800</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>1/2 soba</td>
+                          <td>6.500</td>
+                          <td>7.000</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>2/3 soba</td>
+                          <td>5.600</td>
+                          <td>6.100</td>
+                        </tr>
+                        <tr class="nazivtabele">
+                          <td>2/4 soba</td>
+                          <td>4.300</td>
+                          <td>4.800</td>
+                        </tr>
+                      </table>
+
+
+                    </div>
+
+
+            </div>
+
+        </div>
+ <!-- kraj paketa -->
+
+                            
+
+
+
+
+
+                          <!-- NAPOMENA -->
+
+
+        <div class="napomena-holder">
+
+ 
+
+                      <div class="napomena-container hideme">
+                        <h5>Cene usluga:</h5>
+                        <ul>
+                          <li>GRATIS neograničeno svakodnevno korišćenje Wellness centra (bazen sa slanom vodom, slana soba, hladna soba, 
+                              finska sauna sa kolor terapijom, ruska sauna, parno kupatilo, tople klupe, đakuzi, aroma terapi tuševi)</li>
+
+                          <li>GRATIS neograničeno korišćenje otvorenih bazena. Bazen sa tropskim barom i baldahinima i bio design bazen</li>
+                          <li>GRATIS parking prostor</li>
+                          <li>GRATIS WiFi internet</li>
+                          <li>Penthouse apartman (110m²) – najam po danu – 19.000 rsd</li>
+                          <li>Dnevni odmor u apartmanu (u trajanju od 3 sata) – 4.900 rsd (bez korišćenja Wellness centra)</li>
+                          <li>Doplata za pansionski doručak 350 rsd / dete 200 rsd</li>
+                          <li>Doplata za pansionski ručak/večeru 600 rsd / dete 300 rsd</li>
+
+                        </ul>
+
+                      </div>
+
+
+
+                      <div class="napomena-container">
+                        <h5>Opšte napomene:</h5>
+                        <ul>
+                          <li>Prijava gostiju je od 14h, odjava do 11h</li>
+                          <li>Nedeljom mogucnost kasnije odjave ( na zahtev )</li>
+                          <li>Doručak, ručak i večera se služe sa izložbenog stola / direktan servis , u zavisnosti od broja gostiju</li>
+                          <li>Boravišna taksa 120 rsd po osobi po danu</li>
+                          <li>Osiguranje 20 rsd po osobi po danu</li>
+                        </ul>
+
+                        <p><span>1. Popust od 7% za lojalne goste</span><br>
+                        Svaki individualan gost koji je bar jednom bio naš gost po bilo kom osnovu ostvaruje 7% popust za naredni dolazak. Popust se odnosi na redovan cenovnik i standardne pakete iz naše ponude. </p>
+
+                      </div>
+
+
+ 
+                      <div class="napomena-container">
+                        <h5>Načini plaćanja:</h5>
+                        <ul>
+                          <li>Gotovinski</li>
+                          <li>Virmanski</li>
+                          <li>Kreditnim karticama ( VISA, VISA ELECTRON, MASTER CARD, MAESTRO, DINA CARD i AMERICAN EXPRESS)</li>
+                          <li>Odloženo plaćanje – čekovima građana ( za boravak do 5 dana na 3 mesečne rate, od 5 ili više dana na 6 mesečnih rata)</li>
+                          <li>U slučaju skraćenja boravka od strane individualnih gostiju, Solaris Resort zadržava pravo da naplati 15% vrednosti nerealizovanog dela aranžmana. Nadoknada za skraćenje boravka se ne naplaćuje u slučajevima: iznenadne bolesti gosta, smrtnog slučaja u užoj porodici, elementarne nepogode, vanrednog stanja.</li>
+                        </ul>
+                        <p><span>Otkazni rok rezervacije je 48h pre dolaska. U slučaju nedolaska ili otkaza kraćeg od 48h uplaćeni avans se ne refundira</span></p>
+
+                      </div>
+
+
+                      <div class="napomena-container napomena-container2">
+                        <h5>Uslovi boravka za decu:</h5>
+                        <ul>
+                          <li>Deca do 7 godina ostvaruju GRATIS boravak</li>
+                          <li>Od 7 do 12 godina doplaćuju:
+                            <ul  class="podnapomena">
+                              <li>- Noćenje sa doručkom – 1.500 rsd</li>
+                              <li>- Polupansion – 1.800 rsd</li>
+                            </ul>
+                          </li>
+                          <li>Deca do 7 godina ne plaćaju boravišnu taksu</li>
+                          <li>Od 7 do 15 godina plaćaju boravišnu taksu 60 rsd po danu</li>
+                          <li>Osiguranje 20 rsd po danu</li>
+                        </ul>
+
+                        <p><span>Deca do 12 godina koriste slanu sobu i zatvoreni bazen sa slanom vodom u pratnji roditelja u Dečijem wellness terminu od 10h do 18h </span></p>
+
+                      </div>
+
+
+
+
+        </div>
+ <!-- kraj napomene -->
+
+
+
+
+                          <!-- CENOVNIK WELLNESS -->
+     <div id="cen_well" >
+
+         <div class="wel-holder">
+
+
+            <div class="wel-container">
+
+                    <div class="wel-box">
+                        <h4>Cenovnik wellness centra</h4>
+                        <div class="onama-linija"></div>
+                        <p> <span>Novo u Wellness centru Solaris resorta:</span> <br>Kupovina poklon vaučera je lep način da obradujete svoje drage osobe, klijente, poslovne partnere i zaposlene. Omogućite im trenutke odmora i opuštanja u Wellness centru Solaris Resorta. Izaberite poklon vaučer za jednu ili više usluga našeg Wellness centra.<br></p>
+
+                        <table class="cene">
+                          <tr>
+                            <td><span class="promop">Ulaz u wellness 3h</span> (obuhvata: zatvoreni bazen, slanu pećinu,<br> finsku saunu, rusku banju, parno kupatilo, tepidarijume, kaldarijume, kneipp klupe i jacuzzi)</td>
+                            <td><span>1.600</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">VIP ulaz 4h</span> (obuhvata korišćenje wellness sadržaja, fish spa,<br> refleksnu masažu stopala, parafinsko pakovanje ruku,
+                             piling lica, well being relax masažu 40 min. voćni štapić i voćni napitak) </td>
+                            <td><span>6.100</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Srebrni vaučer</span><br> (obuhvata korišćenje wellness sadržaja i parcijalnu masažu) </td>
+                            <td><span>3.300</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Zlatni vaučer</span><br> (obuhavta korišćenje wellness sadržaja, soft gold masažu i napitak mix voća) </td>
+                            <td><span>5.700</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">VIP vaučer</span> (obuhvata korišćenje wellness sadržaja, <br>Holistic antistress masaža, refleksnu masažu šaka i stopala, parafinsko pakovanje ruku,
+                                napitak mix voća i mali voćni zalogaj) </td>
+                            <td><span>9.900</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Polugodišnja karta</span> (obuhvata korišćenje wellness sadržaja u trajanju od 3h,<br> 30% popust na sve masaže i tretmane iz naše ponude. Izdaje se na
+                                  ime i fiksirana je datumom i to od 01.01. do 30.06. i od 01.07. do 31.12.) </td>
+                            <td><span>22.000</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Godišnja karta</span> (obuhvata korišćenje wellness sadržaja u trajanju od 3h,<br> 30% popust na sve masaže i tretmane iz naše ponude. Izdaje se na ime.) </td>
+                            <td><span>33.000</span></td>
+                          </tr>
+                          <tr>
+                            <td>Slana pećina za odraslu osobu i dete do 12 god. 20 min.</td>
+                            <td><span>1.100</span></td>
+                          </tr>
+                          <tr>
+                            <td>Slana pećina za odraslu osobu 40 min.</td>
+                            <td><span>1.300</span></td>
+                          </tr>
+                          <tr>
+                            <td>Slana pećina za odraslu osobu i dvoje dece 20 min..</td>
+                            <td><span>1.500</span></td>
+                          </tr>
+
+                        </table>
+
+                    </div>
+
+
+                    <div class="wel-box">
+                        <h6>Tretmani tela</h4>
+
+                        <table class="cene">
+                          <tr>
+                            <td><span class="promop">Parafinski tretman šaka 30 min.</span></td>
+                            <td><span>1.600</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Parafinski tretman stopala 30 min.</span></td>
+                            <td><span>1.600</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Kupka za stopala 20 min.</span></td>
+                            <td><span>1.300</span></td>
+                          </tr>
+
+                        </table>
+
+                    </div>
+
+                    <div class="wel-box">
+                        <h6>Masaže</h4>
+
+                        <table class="cene">
+                          <tr>
+                            <td><span class="promop">Mini užitak 20 min.</span></td>
+                            <td><span>1.500</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Refleksna masaža šaka i stopala 20 min.</span></td>
+                            <td><span>2.100</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Masaža za trudnice 30 min.</span></td>
+                            <td><span>1.600</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Parcijalna masaža 30 min. </span></td>
+                            <td><span>2.100</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Topla čokolada parcijalna 30 min.</span></td>
+                            <td><span>2.500</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Topla čokolada celo telo 50 min.</span></td>
+                            <td><span>4.100</span></td>
+                          </tr>
+
+
+                          <tr>
+                            <td><span class="promop">Hot stone parcijalna 30 min.</span></td>
+                            <td><span>3.700</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Hot stone celo telo 60 min.</span></td>
+                            <td><span>5.000</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Anticelulit termogelom 40 min.</span></td>
+                            <td><span>3.500</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Sportska masaža 40 min.</span></td>
+                            <td><span>4.000</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Kraljevska masaža 40 min.</span></td>
+                            <td><span>5.700</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Well being relax 50 min.</span></td>
+                            <td><span>3.500</span></td>
+                          </tr>
+
+
+                          <tr>
+                            <td><span class="promop">Soft gold 50 min.</span></td>
+                            <td><span>4.900</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Piling i masaža 50 min.</span></td>
+                            <td><span>3.800</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Masaža za dvoje 50 min.</span></td>
+                            <td><span>6.000</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Aromaterapija 50 min.</span></td>
+                            <td><span>5.000</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Holistic antistress 60 min.</span></td>
+                            <td><span>4.700</span></td>
+                          </tr>
+                          <tr>
+                            <td><span class="promop">Solaris relax exclusive 60 min..</span></td>
+                            <td><span>5.000</span></td>
+                          </tr>
+                        </table>
+
+                    </div>
+
+
+
+            </div>
+
+          </div>
+
+     </div>
+
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/logo-footer.svg" width="145"/>
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/facebook.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/instagram.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/youtube.svg" width="24"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+ <!-- S M E S T A J  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+ <!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+  	
+
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+         <div class="scroll-wrap">
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+
+
+          </li>
+          <li><a href="restoran.html">RESTORAN</a>
+            <ul class="submenu">
+                     <li><a href="restoran.html#a_la_carte1">À LA CARTE</a></li>
+
+           </ul>
+          </li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          
+          <li><a href="onama.html">PROMO PAKETI</a></li>
+          <li  class="fokus"><a href="#0">GALERIJA</a></li>
+          <li><a href="cenovnik.html">CENOVNIK</a>
+            <ul class="submenu">
+              <li><a href="cenovnik.html#cen_well">WELLNESS CENTAR</a></li>
+            </ul>
+          </li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+      </div>
+  </nav> <!-- .cd-primary-nav -->
+    <div class="booking"><a class="hvr-sweep-to-bottom2"  href="#0">BOOK</a></div>
+</header> <!-- .cd-auto-hide-header -->
+
+
+<main class="cd-main-content">
+
+
+ 
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+                         <!-- GALERIJA SLIKA -->
+
+        <div class="apartman-cont-holder galerijaslika">
+
+
+
+
+        </div>
+ <!-- kraj contenta -->
+
+                            
+                         <!--       S L I K E      -->
+
+<div class="slikeje">
+
+<section>
+  <img src="images/0001.jpg" />
+  <img src="images/00016.jpg" />
+  <img src="images/00012.jpg" />
+  <img src="images/00010.jpg" />
+  <img src="images/0009.jpg" />
+  <img src="images/0006.jpg" />
+  <img src="images/00011.jpg" />
+  <img src="images/0002.jpg" />
+  <img src="images/0008.jpg" />
+  <img src="images/0007.jpg" />
+  <img src="images/00015.jpg" />
+  <img src="images/0003.jpg" />
+  <img src="images/0005.jpg" />
+  <img src="images/00018.jpg" />
+  <img src="images/00014.jpg" />
+  <img src="images/0004.jpg" />
+  <img src="images/00017.jpg" />
+  
+ 
+  <img src="images/00013.jpg" />
+    <img src="images/00019.jpg" />
+  <img src="images/00020.jpg" />
+
+</section>
+<div class="lightbox">
+  <div class="title"></div>
+  <div class="filter"></div>
+  <div class="arrowr"></div>
+  <div class="arrowl"></div>
+  <div class="close"></div>
+</div>
+</div>
+<!-- .end modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="clear"></div>
+
+
+
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/logo-footer.svg" width="145" />
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/facebook.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/instagram.svg" width="24"/></a> </li>
+                    <li><a href="#"><img src="images/youtube.svg" width="24"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+
+
+ <!-- S L I K E galerija -->
+<script type="text/javascript">
+$(window).load(function() {
+
+  $("section img").click(function() {
+    $(".lightbox").fadeIn(300);
+    $(".lightbox").append("<img src='" + $(this).attr("src") + "' alt='" + $(this).attr("alt") + "' />");
+    $(".filter").css("background-image", "url(" + $(this).attr("src") + ")");
+    /*$(".title").append("<h1>" + $(this).attr("alt") + "</h1>");*/
+    $("html").css("overflow", "hidden");
+    if ($(this).is(":last-child")) {
+      $(".arrowr").css("display", "none");
+      $(".arrowl").css("display", "block");
+    } else if ($(this).is(":first-child")) {
+      $(".arrowr").css("display", "block");
+      $(".arrowl").css("display", "none");
+    } else {
+      $(".arrowr").css("display", "block");
+      $(".arrowl").css("display", "block");
+    }
+  });
+
+  $(".close").click(function() {
+    $(".lightbox").fadeOut(300);
+    $("h1").remove();
+    $(".lightbox img").remove();
+    $("html").css("overflow", "auto");
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+      $(".lightbox").fadeOut(300);
+      $(".lightbox img").remove();
+      $("html").css("overflow", "auto");
+    }
+  });
+
+  $(".arrowr").click(function() {
+    var imgSrc = $(".lightbox img").attr("src");
+    var search = $("section").find("img[src$='" + imgSrc + "']");
+    var newImage = search.next().attr("src");
+    /*$(".lightbox img").attr("src", search.next());*/
+    $(".lightbox img").attr("src", newImage);
+    $(".filter").css("background-image", "url(" + newImage + ")");
+
+    if (!search.next().is(":last-child")) {
+      $(".arrowl").css("display", "block");
+    } else {
+      $(".arrowr").css("display", "none");
+    }
+  });
+
+  $(".arrowl").click(function() {
+    var imgSrc = $(".lightbox img").attr("src");
+    var search = $("section").find("img[src$='" + imgSrc + "']");
+    var newImage = search.prev().attr("src");
+    /*$(".lightbox img").attr("src", search.next());*/
+    $(".lightbox img").attr("src", newImage);
+    $(".filter").css("background-image", "url(" + newImage + ")");
+
+    if (!search.prev().is(":first-child")) {
+      $(".arrowr").css("display", "block");
+    } else {
+      $(".arrowl").css("display", "none");
+    }
+  });
+
+});
+</script>
+ 
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
